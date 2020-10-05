@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Video Tag Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+      <div class="container">
+          <h1 class="text-center">
+              Youtube Tag Finder
+          </h1>
+          <form action="/tagfinder" method="post">
+            <div class="form-group">
+                <label for="url">Youtube URL</label>
+                <input type="text" name="url" required placeholder="Youtube URL" class="form-control">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-danger btn-block">
+                    Get Tags
+                </button>
+            </div>
+        </form>
+      </div>
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>
